@@ -2,7 +2,7 @@ server:
   port: 8001
 spring:
   application:
-    name: EASYBUY-PLAT #不要使用下划线
+    name: easybuy-plat #不要使用下划线
 eureka:
   client:
     service-url:

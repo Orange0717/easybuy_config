@@ -2,7 +2,7 @@ server:
   port: 9527
 spring:
   application:
-    name: EASYBUY-ZUUL-GATEWAY
+    name: easybuy-zuul
 eureka:
   client:
     service-url:
