@@ -5,7 +5,7 @@ spring:
     name: easybuy-product #不要使用下划线
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/aigou_product
+    url: jdbc:mysql://localhost:3306/easybuy_product
     username: admin
     password: admin
 mybatis-plus:
