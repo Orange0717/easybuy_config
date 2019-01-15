@@ -19,7 +19,6 @@ zuul:
     common.path: /common/**             #以/product/开头的所有路径都转发给easybuy-product
   ignored-services:  "*"                #可以一个一个配置,但是很麻烦,用*来通配
   prefix: "/services"                   #加上统一前缀
-zuul:
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 60000
