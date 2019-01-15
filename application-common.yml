@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: easybuy-common #不要使用下划线
+    max-http-header-size: 1048576
+    tomcat: 
+      max-http-post-size: 1048576
 eureka:
   client:
     service-url:
